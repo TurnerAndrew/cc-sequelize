@@ -1,15 +1,15 @@
-#Building the Backend
+Building the Backend
 =====================
 
-###Build out the basic server file
-..*npm i express cors dotenv
-..*Review dotenv - hides files from our deployed code
-..*require dotenv into the server file
-..*create .env add SERVER_PORT=9876
+### Build out the basic server file
+..* npm i express cors dotenv
+..* Review dotenv - hides files from our deployed code
+..* require dotenv into the server file
 
 ```javascript
 require('dotenv').config()
 ```
+..* create .env add SERVER_PORT=9876
 
 ```javascript
 const express = require('express')
